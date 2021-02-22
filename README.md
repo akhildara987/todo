@@ -1,8 +1,9 @@
 # Api doc
 
-If You run this code after setting up date base.
-You can visit this below endpoint for a simple todo application
+If You run this code.
+You can visit this below endpoint for a simple todo front end web app
 
+http://localhost:800/web/
 
 # # To Create a new User
 

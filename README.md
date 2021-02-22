@@ -1,5 +1,8 @@
 # Api doc
 
+If You run this code after setting up date base.
+You can visit this below endpoint for a simple todo application
+
 
 # # To Create a new User
 

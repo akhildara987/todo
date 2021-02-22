@@ -1,7 +1,7 @@
 Api doc
 
 
-To Create a new User
+# # To Create a new User
 
 Endpoint:- /api/user 
 
@@ -28,7 +28,7 @@ Response:
     
     
     
-Login to the todo app
+# # Login to the todo app
 
 
 
@@ -55,17 +55,17 @@ Response:
 
 
 
-Add Todo 
+# # Add Todo 
 
 
 
-Endpoint:- /api/todo 
+Endpoint:- /api/todo
 
 Request Method :- POST
 
 Content-Type: :- application/json
 
-sample Request: http://loacalhost:port/api/todo?id=1223333
+sample Request: http://loacalhost:port/api/todo?id=1223333 //id will be provided  once you login
 
 Payload: 
 {
@@ -88,15 +88,15 @@ Response:
 
 
     
-Get Todo 
+# # Get Todo 
 
 
 
-Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
+Endpoint:- /api/todo 
 
 Request Method :- GET
 
-sample Request: http://loacalhost:port/api/todo?id=1223333
+sample Request: http://loacalhost:port/api/todo?id=1223333 //id will be provided  once you login
 
 Response:
 {
@@ -115,15 +115,15 @@ Response:
 
 
     
-Update Todo 
+# # Update Todo 
 
 
 
-Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
-
+Endpoint:- /api/todo 
 Request Method :- PUT
 
-sample Request: http://loacalhost:port/api/todo?id=1223333
+sample Request: http://loacalhost:port/api/todo?id=1223333 //id will be provided  once you login
+
 
 Request payload:
 {
@@ -144,15 +144,15 @@ Response:
 
 
 
-Delete Todo 
+# # Delete Todo 
 
 
 
-Endpoint:- /api/todo?id=1223333&todoid=12233344 
+Endpoint:- /api/todo 
 
 Request Method :- DELETE
 
-sample Request: http://loacalhost:port/api/todo?id=1223333&todoid=12233344 
+sample Request: http://loacalhost:port/api/todo?id=1223333&todoid=12233344  //id will be provided  once you login 
 
 Response:
 {
@@ -161,21 +161,19 @@ Response:
 
 
 
-
-
-Todo Completed
+# # Todo Completed
 
 
 
-Endpoint:- /api/todo/?id=1223333&todoid=12233344  
+Endpoint:- /api/todo/completed
 
-Request Method :- DELETE
+Request Method :- PUT
 
-sample Request: http://loacalhost:port/api/todo?id=1223333&todoid=12233344 
+sample Request: http://loacalhost:port/api/todo/completed?id=1223333&todoid=12233344 
 
 Response:
 {
-		"message": "Todo updated to completed"
+  "message": "Todo updated to completed"
 }
 
     

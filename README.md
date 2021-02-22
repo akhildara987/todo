@@ -68,7 +68,7 @@ sample Request: http://loacalhost:port/api/todo?id=1223333
 Payload: 
 {
 "ID": "8abdfe7f6812d92c",
-"todoPriority": "HIGH", // HIGH,LOW,MEDIUM
+"todoPriority": "HIGH", 
 "description": "descp",
 "enddate": "2021-12-22 00:00:00",
 "title": "New todo",

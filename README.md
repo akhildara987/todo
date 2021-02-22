@@ -56,6 +56,8 @@ Request Method :- POST
 Content-Type: :- application/json
 
 sample Request: http://loacalhost:port/api/todo?id=1223333 
+
+
 ***id will be provided  once you login***
 ***todoPriority :- ['HIGH','LOW','MEDIUM'] any of this list
 
@@ -83,6 +85,8 @@ Endpoint:- /api/todo
 Request Method :- GET
 
 sample Request: http://loacalhost:port/api/todo?id=1223333 
+
+
 ***id will be provided  once you login***
 
 Response:
@@ -110,6 +114,8 @@ Endpoint:- /api/todo
 Request Method :- PUT
 
 sample Request: http://loacalhost:port/api/todo?id=1223333 
+
+
 ***id will be provided  once you login***
 
 Request payload:

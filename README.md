@@ -58,7 +58,7 @@ Content-Type: :- application/json
 ***id will be provided  once you login***
 
 
-***todoPriority :- ['HIGH','LOW','MEDIUM'] any of this list
+***todoPriority :- ['HIGH','LOW','MEDIUM'] any of this list***
 
 sample Request: http://loacalhost:port/api/todo?id=1223333 
 
@@ -155,6 +155,8 @@ Request Method :- DELETE
 
 
 ***id will be provided  once you login***
+
+
 ***you can get todoid  from get api***
 
 
@@ -176,6 +178,8 @@ Endpoint:- /api/todo/completed
 Request Method :- PUT
 
 ***id will be provided  once you login***
+
+
 ***you can get todoid  from get api***
 
 sample Request: http://loacalhost:port/api/todo/completed?id=1223333&todoid=12233344 

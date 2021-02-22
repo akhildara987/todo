@@ -23,7 +23,14 @@ Response:
 }
     
     
+    
+    
+    
+    
+    
 Login to the todo app
+
+
 
 Endpoint:- /api/login 
 
@@ -44,7 +51,13 @@ Response:
 }
 
 
+
+
+
+
 Add Todo 
+
+
 
 Endpoint:- /api/todo 
 
@@ -68,8 +81,16 @@ Response:
 {
 		"message": "Todo Created"
 }
+
+
+
+
+
+
     
 Get Todo 
+
+
 
 Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
 
@@ -87,8 +108,16 @@ Response:
 "is_completed": "false",
 "todoID": "00232c57bdc05170"
 }
+
+
+
+
+
+
     
 Update Todo 
+
+
 
 Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
 
@@ -111,7 +140,13 @@ Response:
  "message": "Todo updated"
 }
 
+
+
+
+
 Delete Todo 
+
+
 
 Endpoint:- /api/todo?id=1223333&todoid=12233344 
 
@@ -124,7 +159,13 @@ Response:
 		"message": "todo deleted"
 }
 
+
+
+
+
 Todo Completed
+
+
 
 Endpoint:- /api/todo/?id=1223333&todoid=12233344  
 

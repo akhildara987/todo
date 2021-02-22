@@ -4,8 +4,11 @@ Api doc
 To Create a new User
 
 Endpoint:- /api/user 
+
 Request Method :- POST
+
 Content-Type: :- application/json
+
 Payload: 
 {
   "firstname":"your name",
@@ -13,6 +16,7 @@ Payload:
     "password":"password",
     "email":"mymail@gmail.com"
 }
+
 Response:
 {
 		"message": "Account Created"
@@ -22,27 +26,34 @@ Response:
 Login to the todo app
 
 Endpoint:- /api/login 
+
 Request Method :- POST
+
 Content-Type: :- application/json
+
 Payload: 
 {
     "password":"password",
     "email":"mymail@gmail.com"
 }
+
 Response:
 {
-			"redirecturl": "/web/todo.html",
-			"id": "123445566",
+  "redirecturl": "/web/todo.html",
+  "id": "123445566"
 }
 
 
 Add Todo 
 
 Endpoint:- /api/todo 
+
 Request Method :- POST
+
 Content-Type: :- application/json
 
 sample Request: http://loacalhost:port/api/todo?id=1223333
+
 Payload: 
 {
 "ID": "8abdfe7f6812d92c",
@@ -52,6 +63,7 @@ Payload:
 "title": "New todo",
 "todoID": "00232c57bdc05170"
 }
+
 Response:
 {
 		"message": "Todo Created"
@@ -60,9 +72,11 @@ Response:
 Get Todo 
 
 Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
+
 Request Method :- GET
 
 sample Request: http://loacalhost:port/api/todo?id=1223333
+
 Response:
 {
 "ID": "8abdfe7f6812d92c",
@@ -77,9 +91,11 @@ Response:
 Update Todo 
 
 Endpoint:- /api/todo?id=1223333 //id will be provided  once you login
+
 Request Method :- PUT
 
 sample Request: http://loacalhost:port/api/todo?id=1223333
+
 Request payload:
 {
 "ID": "8abdfe7f6812d92c",
@@ -89,14 +105,16 @@ Request payload:
 "title": "New todo",
 "todoID": "00232c57bdc05170"
 }
+
 Response:
 {
-		"message": "Todo updated"
+ "message": "Todo updated"
 }
 
 Delete Todo 
 
-Endpoint:- /api/todo?id=1223333&todoid=12233344  
+Endpoint:- /api/todo?id=1223333&todoid=12233344 
+
 Request Method :- DELETE
 
 sample Request: http://loacalhost:port/api/todo?id=1223333&todoid=12233344 
@@ -109,6 +127,7 @@ Response:
 Todo Completed
 
 Endpoint:- /api/todo/?id=1223333&todoid=12233344  
+
 Request Method :- DELETE
 
 sample Request: http://loacalhost:port/api/todo?id=1223333&todoid=12233344 
